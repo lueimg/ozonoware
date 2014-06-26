@@ -279,6 +279,9 @@ a:focus {
   float: left;
   padding: 15px 15px 0 0;
 }
+#site-logo img{
+  width: 250px;
+}
 h1#site-title{
   text-transform: uppercase;
   font-weight: 800;
@@ -579,6 +582,7 @@ a.frmore{
 
 #sidebar .block {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 #sidebar .block > h2 {
@@ -593,7 +597,30 @@ a.frmore{
   margin-bottom: 30px;
 }
 
+.field-name-field-galeria .field-item{
+  display: inline-block;
+}
 
+
+/*   pagina  contactos  */
+.page-node-63 #webform-client-form-63 {
+  background: url('images/contact.png') no-repeat top right transparent;
+}
+.page-node-63 #webform-client-form-63 .form-item label{
+  display: inline-block;
+  width: 20%;
+}
+
+.page-node-63 #webform-client-form-63 .form-item input{
+  display: inline-block;
+  width: 40%;
+}
+
+.page-node-63 #webform-client-form-63 .form-item .form-textarea-wrapper{
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+}
 /* -------------- Form Elements  ------------- */
 
 fieldset { background: #ffffff; border: 1px solid #cccccc; margin-top: 10px; margin-bottom: 32px;
