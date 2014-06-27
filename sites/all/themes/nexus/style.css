@@ -271,6 +271,7 @@ a:focus {
 
 #masthead{
   position: relative;
+  padding: 20px;
 }
 .site-branding{
   margin-bottom: 20px;
@@ -410,6 +411,10 @@ h1#site-title a:link, h1#site-title a:visited{
 
 #main-menu > ul > li > a {
   padding : 10px;
+}
+
+.mainmenu {
+    padding-top: 20px;
 }
 
 /* Layout */
@@ -568,7 +573,9 @@ a.frmore{
   margin: 0.5em 1em 0.5em 0;
   float: left;
 }
-.page-node #content-wrap img {
+.page-node #content-wrap img,
+.page-node #sidebar img
+ {
   border: 1px solid #CCCCCC;
   padding: 6px;
   height: auto;
@@ -828,6 +835,9 @@ width: 100%; padding-left: 0 !important; padding-right: 0 !important; text-align
 
 #search-form .form-item-keys label { display: block; }
 
+.busqueda .form-text{
+  width: 70%;
+}
 
 ol.search-results { padding-left: 0; }
 
@@ -1180,6 +1190,7 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
   #main-menu{
     display:none;
   }
+
     
   .flex-caption{
     display: none;
