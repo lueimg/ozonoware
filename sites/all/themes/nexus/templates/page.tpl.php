@@ -81,9 +81,9 @@
           <div id="main-menu">
             <?php 
               if (module_exists('i18n_menu')) {
-                $main_menu_tree = i18n_menu_translated_tree(variable_get('menu_main_links_source', 'main-menu'));
+                $main_menu_tree = i18n_menu_translated_tree(variable_get('main-menu', 'main-menu'));
               } else {
-                $main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu'));
+                $main_menu_tree = menu_tree(variable_get('main-menu', 'main-menu'));
               }
               print drupal_render($main_menu_tree);
             ?>

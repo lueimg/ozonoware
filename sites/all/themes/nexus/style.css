@@ -55,11 +55,11 @@ body {
 
 /* Links */
 a {
-  color: #f4473a;
+  color: #84b33c;
 
 }
 a:visited {
-  color: #f4473a;
+  color: #84b33c;
 }
 a:hover,
 a:focus,
@@ -180,6 +180,17 @@ td{
   border:1px solid #ddd;
   border-right:none;
   background:#fff;
+}
+
+table p {
+  margin: 0;
+}
+
+#block-system-main .field-name-field-beneficios table,
+#block-system-main .field-name-field-beneficios table td
+{
+border: none;
+vertical-align: top;
 }
 
 #primary th {
@@ -343,10 +354,12 @@ h1#site-title a:link, h1#site-title a:visited{
   padding: 19px 10px 19px 10px;
   text-decoration: none;
   position: relative;
+  font-size: 1.1em;
 }
 
 #main-menu li a:hover, #main-menu li a:active, #main-menu a.active, #main-menu > ul > li > a.active-trail {
   color: #006296; 
+  border-bottom: 3px solid #84b33c;
 }
   
 #main-menu li a.sf-with-ul {
@@ -363,15 +376,22 @@ h1#site-title a:link, h1#site-title a:visited{
   border-top:1px solid #ddd;
   position: relative;
   font-weight:400;
+  border-bottom: none;
 }
   
-#main-menu ul li ul li:first-child a,#main-menu ul li ul li ul li:first-child a,#main-menu ul li ul li ul li ul li:first-child a  {
+#main-menu ul li ul li:first-child a,
+#main-menu ul li ul li ul li:first-child a,
+#main-menu ul li ul li ul li ul li:first-child a  {
   border-top:none;
 }
 
   
-#main-menu li ul li a:hover ,#main-menu li ul li ul li a:hover ,#main-menu li ul li ul li ul li a:hover {
+#main-menu li ul li a:hover ,
+#main-menu li ul li ul li a:hover ,
+#main-menu li ul li ul li ul li a:hover {
   color: #ed564b;
+  color: #84b33c;
+  
 }
 
 #main-menu li ul {
@@ -516,7 +536,7 @@ a.frmore{
 #bottom{
   padding: 20px 0px 40px 0px;
   background: #3b3b3b;
-  border-top:5px solid #ed564b;
+  border-top:5px solid #84b33c;
 }
  
 .footer-block{
@@ -576,11 +596,11 @@ a.frmore{
 .page-node #content-wrap img,
 .page-node #sidebar img
  {
-  border: 1px solid #CCCCCC;
+  /*border: 1px solid #CCCCCC;*/
   padding: 6px;
-  height: auto;
-  max-width: 97.4%;
-  margin: 0.5em 1em 0.5em 0;
+  /*height: auto;*/
+  /*max-width: 97.4%;*/
+  /*margin: 0.5em 1em 0.5em 0;*/
 }
 
 .region-content-top {
@@ -663,7 +683,9 @@ fieldset .fieldset-wrapper { padding: 0 10px; }
 
 fieldset .fieldset-description { margin-top: 5px; margin-bottom: 1em; line-height: 1.4; font-style: italic; }
 
-input { margin: 2px 0; padding: 4px; }
+input { margin: 2px 0; padding: 4px; 
+border-radius: 5px;
+}
 
 input, textarea {  font-size: 0.929em; }
 
@@ -836,7 +858,7 @@ width: 100%; padding-left: 0 !important; padding-right: 0 !important; text-align
 #search-form .form-item-keys label { display: block; }
 
 .busqueda .form-text{
-  width: 70%;
+  width: 75%;
 }
 
 ol.search-results { padding-left: 0; }
@@ -1030,7 +1052,7 @@ ul.inline, ul.links.inline {
 }
 
 .field-name-field-tags a{
-  background: #ed564b;
+  background: #84b33c;
   margin-right: 5px;
   margin-bottom: 5px;
   border-radius: 2px;
