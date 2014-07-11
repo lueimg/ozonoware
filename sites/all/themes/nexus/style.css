@@ -1219,3 +1219,52 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
   }
 
 }
+
+/*@media screen and (min-width:1000px)*/
+/*@media screen and (min-width:480px)*/
+
+
+@media screen and (max-width:480px){
+
+  .flex-direction-nav a{
+background-size: 51px auto;
+    height: 45px;
+    top: 70%;
+    width: 33px;
+  }
+
+}
+
+@media screen and (max-width:1200px){
+
+  .mainmenu{
+      border: 1px solid #888;
+      border-radius: 10px;
+      display: block;
+      font-weight: bold;
+      margin: 20px;
+      padding: 10px;
+      position: fixed;
+      right: 0;
+      top: 0;
+      width: auto;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
