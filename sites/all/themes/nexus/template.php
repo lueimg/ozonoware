@@ -60,6 +60,20 @@ function nexus_preprocess_page(&$vars) {
   else {
     $vars['secondary_menu'] = FALSE;
   }
+
+
+  if(isset($_GET['tid'])){
+    drupal_add_js('jQuery(document).ready(function () { jQuery("#edit-submitted-motivo").val("tid_2"); });', 'inline');
+  }
+    
+    drupal_add_js('jQuery(document).ready(function () { 
+      
+      jQuery(".page-node-52 .horizontal-tab-button-0 strong").text("Beneficios del agua ozonizada");
+      jQuery(".page-node-53 .horizontal-tab-button-0 strong").text("Beneficios de un ambiente ozonizado");
+
+     });', 'inline');
+
+
 }
 
 /**

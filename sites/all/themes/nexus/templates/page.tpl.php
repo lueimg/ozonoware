@@ -77,6 +77,10 @@
       </div>
       <div class="col-sm-6 mainmenu">
         <div class="mobilenavi"></div>
+        <div class="searchbox">
+          <?php $block = module_invoke('search', 'block_view', 'search');
+          print render($block); ?>
+        </div>
         <nav id="navigation" role="navigation">
           <div id="main-menu">
             <?php 

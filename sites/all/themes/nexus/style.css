@@ -70,7 +70,7 @@ a:active {
 
 /*set max img width*/
 img {
-  max-width: 100%;
+  /*max-width: 100%;*/
 }
 
 
@@ -1238,17 +1238,22 @@ background-size: 51px auto;
 @media screen and (max-width:1200px){
 
   .mainmenu{
-      border: 1px solid #888;
+    
       border-radius: 10px;
       display: block;
       font-weight: bold;
       margin: 20px;
       padding: 10px;
-      position: fixed;
+      position: absolute;
       right: 0;
       top: 0;
       width: auto;
   }
+
+  nav#navigation {
+    padding: 10px 45px;
+    text-align: right;
+}
 
 }
 
